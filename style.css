@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #b55caf, #514450, #556fb7);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  background: rgba(240, 191, 213, 0.7);
+  backdrop-filter: blur(14px);
+  border-radius: 25px;
+  padding: 30px;
+  width: 100%;
+  max-width: 480px;
+  box-shadow: 0 10px 40px rgba(255, 182, 193, 0.3);
+  border: 1px solid #ffffff60;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #151416;
+}
+
+.input-group {
+  display: flex;
+  margin-top: 20px;
+}
+
+#task-input {
+  flex: 1;
+  padding: 14px 18px;
+  border: 2px solid #f8cdda;
+  border-right: none;
+  border-radius: 15px 0 0 15px;
+  font-size: 16px;
+  outline: none;
+  background: #fff0f5;
+  color: #140202;
+}
+
+#add-btn {
+  background-color: #d80b53;
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  padding: 0 20px;
+  border: none;
+  border-radius: 0 15px 15px 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#add-btn:hover {
+  background-color: #d28e9e;
+}
+
+#task-list {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffffdd;
+  padding: 12px 16px;
+  border-radius: 15px;
+  margin-bottom: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: 0.2s ease;
+}
+
+.task-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.task-left input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  accent-color: #f78fb3;
+}
+
+.task-text {
+  font-size: 16px;
+}
+
+.completed .task-text {
+  text-decoration: line-through;
+  color: #bc1717;
+}
+
+.not-completed .task-text {
+  color: #4b2743;
+}
+
+.task-actions button {
+  background: none;
+  border: none;
+  color: #999;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: 0.2s;
+}
+
+.task-actions button:hover {
+  color: #d63384;
+}
