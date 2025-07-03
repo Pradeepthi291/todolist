@@ -24,8 +24,7 @@ A simple and aesthetic to-do list web app built using HTML, CSS, and JavaScript.
 
 ## 🔗 Live Demo
 
-[View it on GitHub Pages](https://yourusername.github.io/to-do-list-app)  
-*(replace with your actual URL)*
+https://pradeepthi291.github.io/todolist/
 
 ---
 
